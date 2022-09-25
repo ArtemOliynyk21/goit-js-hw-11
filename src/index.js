@@ -1,5 +1,5 @@
-import { debounce } from 'throttle-debounce';
 import './css/styles.css';
+import { throttle } from 'throttle-debounce';
 import { PixabayAPI } from './js/pixaby';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import simpleLightbox from 'simplelightbox';
